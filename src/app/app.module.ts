@@ -7,6 +7,7 @@ import { ProductModule } from './product/product.module';
 import { HttpClientModule } from '@angular/common/http';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
+import { CartModule } from './cart/cart.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import {MatButtonModule} from '@angular/material/button';
     ProductModule,
     HttpClientModule,
     MatToolbarModule,
-    MatButtonModule
+    MatButtonModule,
+    CartModule
   ],
   providers: [],
   bootstrap: [AppComponent]

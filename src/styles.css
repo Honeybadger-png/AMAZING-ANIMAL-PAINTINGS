@@ -1,4 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+@import "@angular/material/prebuilt-themes/rose-red.css";
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(244,244,244);
+}
+
+.container {
+    padding: 50px;
+    max-width: 1200px;
+    margin: auto;
+}
+.container-sm {
+    padding: 50px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
